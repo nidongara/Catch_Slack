@@ -1,6 +1,6 @@
 import moment from 'moment-timezone'
 import {RTMClient, WebClient} from '@slack/client'
-import users from './Users'
+import users from './team'
 
 
 const fs = require('fs')
