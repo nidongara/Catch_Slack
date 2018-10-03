@@ -5,7 +5,7 @@ import users from './Users'
 
 const fs = require('fs')
 // An access token (from your Slack app or custom integration - usually xoxb)
-const token = 'xoxp-3987231140-185886630033-447777010515-4a99ed1b25fae24d2a0e845d31064f2c'
+const token = process.env.SLACK_TOKEN
 
 // Initialize the clients
 const rtm = new RTMClient(token);
